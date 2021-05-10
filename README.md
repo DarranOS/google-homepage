@@ -1,0 +1,1 @@
+This is my google homepage project, where I'll recreate a basic web layout using HTML and CSS.
