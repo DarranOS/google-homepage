@@ -2,25 +2,28 @@
 <html>
  <head>
      <link rel="stylesheet" href="CSS/main.css"></link>
+     <link href="https://font.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <title>Hello Goolge</title>
      
  </head>
      <body id="body">
             <div id="header">
                 <div id="header-left">
                     <nav>
-                    <ul>
+                    <ul id="menu-left">
                     <li>About</li>
                     <li>Store</li>
-                    <li>Gmail</li>
+                    
                     </ul>               
                     </nav>
                 </div>
 
                 <div id="header-right">
                     <nav>
-                    <ul>
+                    <ul id="menu-right">
+                    <li>Gmail</li>
                     <li>Images</li>
-                    <li>Menu Dot</li>
+                    <li> <span class="material-icons">app</span> </li>
                     <li>Profile Pic</li>
                     </ul>
                     </nav>
@@ -28,8 +31,8 @@
             </div>
         
 
-        <main>
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+        <main id="main-section">
+            <img id="main-logo"src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
             <div id="search bar">
             <input type="button">   
             <input type="text"> 
@@ -43,25 +46,36 @@
         </main>
 
         <footer class="footer">
-            <div id="footer location">United Kingdom</div>
-            <div> <ul><li>Leaf Icon</li>Carbon neutral since 2007<li></li></ul></div>
-            <div id="footer menu">
-                <div id=footer menu left>
-                <ul>
+            <div id="footer-location"> 
+                <p>United Kingdom</p>
+            </div>
+            <hr>
+            <div id="carbon"> 
+                <nav>
+                    <ul>
+                    <li>Leaf Icon</li>
+                    <li>Carbon neutral since 2007</li>
+                    </ul>
+                </nav>    
+            </div>
+            <div id="footer-menu">
+                <div class="footer-menu-div">
+                <ul id="menu-left">
                     <li>Advertising</li>
                     <li>Business</li>
                     <li>How Search Works</li>
 
             </ul></div>
-        </div>
-
-            <div id="footer menu right"></div>
-                <ul>
+        
+                <div class="footer-menu-div">
+                <ul id="menu-right">
                     <li>Privacy</li>
                     <li>Terms</li>
                     <li>Settings</li>
 
             </ul></div>
+        
+        </div>
         </footer>
         </body>
     </html>

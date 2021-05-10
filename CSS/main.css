@@ -2,6 +2,12 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #6f6f6f;
+    list-style-type: none;
+
 }
 
 #body {
@@ -18,34 +24,125 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    background: blue;
+    padding: 15px;
+   
 }
 
 #header-left {
     display: flex;
     flex-direction: row;
     width: 100%;
-    background: red;
 }
 
 #header-right {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     width: 100%;
-    background: #ff0;
+
 }
+
+#menu-left {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 5px;
+   
+
+}
+
+#menu-right {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 5px;
+
+
+}
+
+#menu-left > li, #menu-right > li {
+    padding: 10px;
+
+}
+
+
+
 
 #main-section {
     display: flex;
+    margin: auto;
     flex-direction: column;
+    justify-content: center;
     height: 100%;
+}
+
+#main-logo {
+    max-width: 400px;
+    height: auto;
 }
 
 
 .footer {
+    display: flex;
+    flex-direction: column;
     background: #f2f2f2;
+    width: 100%;
+    padding: 15px;
 }
 
-.footer > li {
-    text-align: center;
-} 
+#footer-location {
+    display: flex;
+    padding: 15px;
+   
+}
+
+#carbon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+}
+
+#carbon > nav > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#carbon > nav > ul > li {
+    padding: 15px;
+}
+
+
+#footer-menu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.footer-menu-div {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+#menu-left {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+#menu-right {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px;
+
+}
+
+#menu-left > li, #menu-right > li {
+    padding: 10px;
+
+}
